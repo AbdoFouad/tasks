@@ -1,0 +1,149 @@
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-right: 65px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+} 
+header nav ul li{
+    font-size: 18px;
+    padding: 25px 15px;
+    color:#484848;
+}
+header nav ul li a{
+    text-decoration:none;
+    color: #484848;
+    transition: 0.2s;
+}
+header nav ul li a.active,
+header nav ul li a:hover{
+    color: #FFC80A;
+}
+.en{
+    padding: 25px 10px;
+}
+.search{
+    position: absolute;
+    border-radius: 20px;
+    border-color: #DEDEDE;
+    margin-top: 22px;
+    margin-left: 5px;
+    height: 20px;
+}
+.searchbox{
+    margin-left: 30px;
+}
+.searchbox i{
+    position: relative;
+    top: 27px;
+    left: 156px;
+}
+main .container{
+    max-width: 1200px;
+}
+main .row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 71px;
+}
+main img{
+    width: 100%;
+}   
+.row div{
+    width: 28%;
+    margin: 20px;
+}
+.row .box{
+    box-shadow: 0px 1px 2px;
+}
+h3{
+    font-size: 20px;
+}
+h3::after{
+    content: "";
+}
+p{
+    font-size: 16px;
+    color: #484848;
+}
+.row div .text{
+    width: 100%;
+}
+footer .img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.place{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.place li{
+    margin-top: 12px;
+    font-size: 16px
+}
+.place a{
+    text-decoration: none;
+    color: #484848;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.sections{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sections li{
+    margin-top: 12px;
+    font-size: 16px;
+}
+.sections a{
+    text-decoration: none;
+    color: #484848;
+}
+.adress{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.adress li{
+    margin-top: 12px;
+    font-size: 16px;
+}
+.adress a{
+    text-decoration: none;
+    color: #484848;
+}
+.social{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.social li{
+    font-size: 16px;
+}
+.social i{
+    color: black;
+    font-size: 20px;
+}

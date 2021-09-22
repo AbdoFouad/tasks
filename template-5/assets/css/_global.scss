@@ -1,0 +1,44 @@
+/*start general properties for website*/
+
+@font-face {
+    font-family: "Oswald";
+    src: url(../fonts/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "open-sans";
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+    touch-action: manipulation !important;
+}
+$primaryColor: #080;
+$secodaryColor: #111111;
+/*
+    mixin after before heading
+*/
+@mixin headingStyle {
+    content: "\\\\";
+    color: $primaryColor;
+    font-size: 36px;
+    letter-spacing: -5px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+    line-height: 1;
+    font-weight: bold;
+    font-family: "Times New Roman", "Bitstream Charter", Times, serif;
+}
+@mixin marginBefore {
+    margin-right: 20px;
+}
+@mixin marginRight {
+    margin-left: 20px;
+}
